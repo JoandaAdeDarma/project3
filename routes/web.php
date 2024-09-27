@@ -33,3 +33,7 @@ Route::group(['middleware' => ['auth', 'checklevel:user']], function () {
 Route::get('/logout', [LoginRegisterController::class, 'logout'])->name('logout');
 Route::post('/postLogin', [LoginRegisterController::class, 'postLogin'])->name('postLogin'); 
 Route::post('/postRegister', [LoginRegisterController::class, 'postRegister'])->name('postRegister');
+
+
+
+

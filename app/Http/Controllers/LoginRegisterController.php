@@ -68,3 +68,7 @@ class LoginRegisterController extends Controller
                     return redirect('/'); 
             }
         }
+
+
+
+        

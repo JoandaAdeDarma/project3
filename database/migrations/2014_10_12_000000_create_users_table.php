@@ -31,3 +31,6 @@ public function down()
 Schema::dropIfExists('users');
 }
 };
+
+
+
